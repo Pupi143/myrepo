@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My AWS Test Web App</title>
+  <style>
+    body { font-family: Arial; text-align: center; margin-top: 100px; }
+    h1 { color: #0073bb; }
+  </style>
+</head>
+<body>
+  <h1>Hello, AWS World!</h1>
+  <p>This page was deployed using AWS CodePipeline & CodeDeploy 🚀</p>
+</body>
+</html>
