@@ -6,9 +6,9 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 
-require '/opt/bitnami/apache2/htdocs/phpmailer/src/Exception.php';
-require '/opt/bitnami/apache2/htdocs/phpmailer/src/PHPMailer.php';
-require '/opt/bitnami/apache2/htdocs/phpmailer/src/SMTP.php';
+require __DIR__ . '/phpmailer/src/Exception.php';
+require __DIR__ . '/phpmailer/src/PHPMailer.php';
+require __DIR__ . '/phpmailer/src/SMTP.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (isset($_POST['button'])) {
