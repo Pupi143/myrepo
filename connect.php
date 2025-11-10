@@ -1,7 +1,7 @@
 <?php
-$SERVER = "localhost";
-$user = "root";
-$password = "O/REdP0@5/sv";  // Bitnami MySQL password
+$SERVER = "hotel-db.cluster-cnuoqi6ouauq.ap-south-1.rds.amazonaws.com";
+$user = "admin";
+$password = "'HotelPass123!'";
 $db_name = "hotel";
 
 $conn = mysqli_connect($SERVER, $user, $password, $db_name);
